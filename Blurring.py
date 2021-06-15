@@ -23,7 +23,7 @@ cv2.putText(bilateral_blur, "Bilateral Blur", (10, 30), cv2.FONT_HERSHEY_SIMPLEX
 combined_image = np.concatenate((image, g_image, median_image, bilateral_blur), axis=1)
 # Show all the images
 # Save the image
-cv2.imwrite("blurring.png", combined_image)
+cv2.imwrite("images/blurring.png", combined_image)
 cv2.imshow("Blurring Images", combined_image)
 # House keeping
 cv2.waitKey(0)

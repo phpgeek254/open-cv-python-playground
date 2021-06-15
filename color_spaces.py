@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('image.png')
+image = cv2.imread('images/image.png')
 cap = cv2.VideoCapture(0)
 print("Image details shape", image.shape, image[20, 30].shape)
 
